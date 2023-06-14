@@ -8,17 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		D074126C2A389DC00038EEEC /* PeopleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074126B2A389DC00038EEEC /* PeopleAppApp.swift */; };
-		D074126E2A389DC00038EEEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074126D2A389DC00038EEEC /* ContentView.swift */; };
 		D07412702A389DC00038EEEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D074126F2A389DC00038EEEC /* Assets.xcassets */; };
 		D07412732A389DC00038EEEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07412722A389DC00038EEEC /* Preview Assets.xcassets */; };
+		D074127B2A389E310038EEEC /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074127A2A389E310038EEEC /* Symbols.swift */; };
+		D074127D2A389FD10038EEEC /* theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074127C2A389FD10038EEEC /* theme.swift */; };
+		D074128F2A39EF9E0038EEEC /* UsersStaticData.json in Resources */ = {isa = PBXBuildFile; fileRef = D074128E2A39EF9E0038EEEC /* UsersStaticData.json */; };
+		D07412912A39EFF40038EEEC /* SingleUserData.json in Resources */ = {isa = PBXBuildFile; fileRef = D07412902A39EFF40038EEEC /* SingleUserData.json */; };
+		D07412952A39F1200038EEEC /* UserDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07412942A39F1200038EEEC /* UserDetailResponse.swift */; };
+		D07412972A39F17E0038EEEC /* UsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07412962A39F17E0038EEEC /* UsersResponse.swift */; };
+		D074129A2A39F28F0038EEEC /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07412992A39F28F0038EEEC /* Models.swift */; };
+		D074129D2A39F2D30038EEEC /* StaticJSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074129C2A39F2D30038EEEC /* StaticJSONMapper.swift */; };
+		D07412A02A39F8140038EEEC /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074129F2A39F8140038EEEC /* PeopleView.swift */; };
+		D07412A22A39F8720038EEEC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07412A12A39F8720038EEEC /* SettingsView.swift */; };
+		D07412A42A3A2F180038EEEC /* PersonItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07412A32A3A2F180038EEEC /* PersonItemView.swift */; };
+		D07412A72A3A304F0038EEEC /* PillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07412A62A3A304F0038EEEC /* PillView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D07412682A389DC00038EEEC /* PeopleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeopleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D074126B2A389DC00038EEEC /* PeopleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleAppApp.swift; sourceTree = "<group>"; };
-		D074126D2A389DC00038EEEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D074126F2A389DC00038EEEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D07412722A389DC00038EEEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D074127A2A389E310038EEEC /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
+		D074127C2A389FD10038EEEC /* theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theme.swift; sourceTree = "<group>"; };
+		D074128C2A38B3E30038EEEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D074128E2A39EF9E0038EEEC /* UsersStaticData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UsersStaticData.json; sourceTree = "<group>"; };
+		D07412902A39EFF40038EEEC /* SingleUserData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SingleUserData.json; sourceTree = "<group>"; };
+		D07412942A39F1200038EEEC /* UserDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailResponse.swift; sourceTree = "<group>"; };
+		D07412962A39F17E0038EEEC /* UsersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersResponse.swift; sourceTree = "<group>"; };
+		D07412992A39F28F0038EEEC /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		D074129C2A39F2D30038EEEC /* StaticJSONMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticJSONMapper.swift; sourceTree = "<group>"; };
+		D074129F2A39F8140038EEEC /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		D07412A12A39F8720038EEEC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D07412A32A3A2F180038EEEC /* PersonItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonItemView.swift; sourceTree = "<group>"; };
+		D07412A62A3A304F0038EEEC /* PillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +74,11 @@
 		D074126A2A389DC00038EEEC /* PeopleApp */ = {
 			isa = PBXGroup;
 			children = (
+				D074128C2A38B3E30038EEEC /* Info.plist */,
+				D074127F2A38A16A0038EEEC /* Features */,
+				D074127E2A38A1650038EEEC /* Base */,
+				D07412792A389DD50038EEEC /* Resources */,
 				D074126B2A389DC00038EEEC /* PeopleAppApp.swift */,
-				D074126D2A389DC00038EEEC /* ContentView.swift */,
 				D074126F2A389DC00038EEEC /* Assets.xcassets */,
 				D07412712A389DC00038EEEC /* Preview Content */,
 			);
@@ -65,6 +91,183 @@
 				D07412722A389DC00038EEEC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D07412792A389DD50038EEEC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D074128D2A39EF6E0038EEEC /* JSON */,
+				D074127A2A389E310038EEEC /* Symbols.swift */,
+				D074127C2A389FD10038EEEC /* theme.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D074127E2A38A1650038EEEC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D07412A52A3A30400038EEEC /* Views */,
+				D074129B2A39F2C60038EEEC /* Mapper */,
+				D07412982A39F2840038EEEC /* Model */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D074127F2A38A16A0038EEEC /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				D07412832A38A1850038EEEC /* Settings */,
+				D07412822A38A17D0038EEEC /* Detail */,
+				D07412812A38A1790038EEEC /* Create */,
+				D07412802A38A1750038EEEC /* People */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		D07412802A38A1750038EEEC /* People */ = {
+			isa = PBXGroup;
+			children = (
+				D07412862A38A2B60038EEEC /* View Models */,
+				D07412852A38A2AE0038EEEC /* Model */,
+				D07412842A38A2A70038EEEC /* Views */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		D07412812A38A1790038EEEC /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				D07412892A38A3010038EEEC /* View Models */,
+				D07412882A38A2FE0038EEEC /* Model */,
+				D07412872A38A2FB0038EEEC /* Views */,
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
+		D07412822A38A17D0038EEEC /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				D07412932A39F10B0038EEEC /* Model */,
+				D07412922A39F1040038EEEC /* View Models */,
+				D074128A2A38A3060038EEEC /* Views */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		D07412832A38A1850038EEEC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D074128B2A38B3000038EEEC /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		D07412842A38A2A70038EEEC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D074129F2A39F8140038EEEC /* PeopleView.swift */,
+				D07412A32A3A2F180038EEEC /* PersonItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D07412852A38A2AE0038EEEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D07412962A39F17E0038EEEC /* UsersResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D07412862A38A2B60038EEEC /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		D07412872A38A2FB0038EEEC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D07412882A38A2FE0038EEEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D07412892A38A3010038EEEC /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		D074128A2A38A3060038EEEC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D074128B2A38B3000038EEEC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D07412A12A39F8720038EEEC /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D074128D2A39EF6E0038EEEC /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				D074128E2A39EF9E0038EEEC /* UsersStaticData.json */,
+				D07412902A39EFF40038EEEC /* SingleUserData.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		D07412922A39F1040038EEEC /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		D07412932A39F10B0038EEEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D07412942A39F1200038EEEC /* UserDetailResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D07412982A39F2840038EEEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D07412992A39F28F0038EEEC /* Models.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D074129B2A39F2C60038EEEC /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				D074129C2A39F2D30038EEEC /* StaticJSONMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		D07412A52A3A30400038EEEC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D07412A62A3A304F0038EEEC /* PillView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +330,8 @@
 			files = (
 				D07412732A389DC00038EEEC /* Preview Assets.xcassets in Resources */,
 				D07412702A389DC00038EEEC /* Assets.xcassets in Resources */,
+				D07412912A39EFF40038EEEC /* SingleUserData.json in Resources */,
+				D074128F2A39EF9E0038EEEC /* UsersStaticData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +342,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D074126E2A389DC00038EEEC /* ContentView.swift in Sources */,
+				D074129D2A39F2D30038EEEC /* StaticJSONMapper.swift in Sources */,
+				D074127B2A389E310038EEEC /* Symbols.swift in Sources */,
+				D07412A02A39F8140038EEEC /* PeopleView.swift in Sources */,
+				D07412A22A39F8720038EEEC /* SettingsView.swift in Sources */,
+				D074127D2A389FD10038EEEC /* theme.swift in Sources */,
+				D07412952A39F1200038EEEC /* UserDetailResponse.swift in Sources */,
+				D07412A72A3A304F0038EEEC /* PillView.swift in Sources */,
 				D074126C2A389DC00038EEEC /* PeopleAppApp.swift in Sources */,
+				D07412972A39F17E0038EEEC /* UsersResponse.swift in Sources */,
+				D07412A42A3A2F180038EEEC /* PersonItemView.swift in Sources */,
+				D074129A2A39F28F0038EEEC /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +484,9 @@
 				DEVELOPMENT_TEAM = 34JGVY5X9N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PeopleApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +513,9 @@
 				DEVELOPMENT_TEAM = 34JGVY5X9N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PeopleApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
