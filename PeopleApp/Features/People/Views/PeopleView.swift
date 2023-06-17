@@ -12,6 +12,7 @@ struct PeopleView: View {
     private let columns = Array(repeating: GridItem(.flexible()), count: 2)
     
     @State private var users: [User] = []
+    @State private var showCreate = false
     
     var body: some View {
         NavigationView {
@@ -22,7 +23,11 @@ struct PeopleView: View {
                 ScrollView {
                     LazyVGrid(columns: columns, spacing: 16) {
                         ForEach(users, id: \.id) { user in
-                            PersonItemView(user: user)
+                            NavigationLink {
+                                DetailView()
+                            } label: {
+                                PersonItemView(user: user)
+                            }
                         }
                     }
                     .padding()
@@ -35,13 +40,19 @@ struct PeopleView: View {
                 }
             }
             .onAppear {
-                do {
-                    let res = try StaticJSONMapper.decode(file: "UsersStaticData", type: UsersResponse.self)
-                    users = res.data
-                } catch {
-                    //MARK: TO DO -> Handle any errors
-                    print(error)
+                
+                NetworkingManager.shared.request("https://reqres.in/api/users",
+                                                 type: UsersResponse.self) { res in
+                    switch res {
+                    case .success(let response):
+                        users = response.data
+                    case .failure(let error):
+                        print(error)
+                    }
                 }
+            }
+            .sheet(isPresented: $showCreate) {
+                CreateView()
             }
         }
     }
@@ -65,6 +76,7 @@ private extension PeopleView {
     
     var create: some View {
         Button {
+            showCreate.toggle()
             
         } label: {
             Symbols.plus

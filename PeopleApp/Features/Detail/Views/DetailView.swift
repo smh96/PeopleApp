@@ -32,6 +32,7 @@ struct DetailView: View {
                 .padding()
             }
         }
+        .navigationTitle("Details")
         .onAppear {
             do {
                 userInfo = try StaticJSONMapper.decode(file: "SingleUserData", type: UserDetailResponse.self)
@@ -45,7 +46,9 @@ struct DetailView: View {
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView()
+        NavigationView {
+            DetailView()
+        }
     }
 }
 
