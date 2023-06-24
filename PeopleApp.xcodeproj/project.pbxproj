@@ -25,6 +25,9 @@
 		D07412A42A3A2F180038EEEC /* PersonItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07412A32A3A2F180038EEEC /* PersonItemView.swift */; };
 		D07412A72A3A304F0038EEEC /* PillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07412A62A3A304F0038EEEC /* PillView.swift */; };
 		D07412A92A3B2CA10038EEEC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07412A82A3B2CA10038EEEC /* DetailView.swift */; };
+		D095C47A2A4756D60004279C /* CheckmarkPopOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D095C4792A4756D60004279C /* CheckmarkPopOverView.swift */; };
+		D0D47E902A45EE4B004A18B6 /* NewPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D47E8F2A45EE4B004A18B6 /* NewPerson.swift */; };
+		D0D47E922A45EF2D004A18B6 /* CreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D47E912A45EF2D004A18B6 /* CreateViewModel.swift */; };
 		D0DC2FA92A3C9FC700A21D94 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC2FA82A3C9FC700A21D94 /* CreateView.swift */; };
 		D0DC2FAD2A3DE30300A21D94 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC2FAC2A3DE30300A21D94 /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
@@ -50,6 +53,9 @@
 		D07412A32A3A2F180038EEEC /* PersonItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonItemView.swift; sourceTree = "<group>"; };
 		D07412A62A3A304F0038EEEC /* PillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillView.swift; sourceTree = "<group>"; };
 		D07412A82A3B2CA10038EEEC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		D095C4792A4756D60004279C /* CheckmarkPopOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmarkPopOverView.swift; sourceTree = "<group>"; };
+		D0D47E8F2A45EE4B004A18B6 /* NewPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPerson.swift; sourceTree = "<group>"; };
+		D0D47E912A45EF2D004A18B6 /* CreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewModel.swift; sourceTree = "<group>"; };
 		D0DC2FA82A3C9FC700A21D94 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
 		D0DC2FAC2A3DE30300A21D94 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -209,6 +215,7 @@
 		D07412882A38A2FE0038EEEC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D0D47E8F2A45EE4B004A18B6 /* NewPerson.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -216,6 +223,7 @@
 		D07412892A38A3010038EEEC /* View Models */ = {
 			isa = PBXGroup;
 			children = (
+				D0D47E912A45EF2D004A18B6 /* CreateViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -281,6 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				D07412A62A3A304F0038EEEC /* PillView.swift */,
+				D095C4792A4756D60004279C /* CheckmarkPopOverView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -370,10 +379,13 @@
 				D074127B2A389E310038EEEC /* Symbols.swift in Sources */,
 				D07412A02A39F8140038EEEC /* PeopleView.swift in Sources */,
 				D07412A22A39F8720038EEEC /* SettingsView.swift in Sources */,
+				D0D47E902A45EE4B004A18B6 /* NewPerson.swift in Sources */,
+				D0D47E922A45EF2D004A18B6 /* CreateViewModel.swift in Sources */,
 				D074127D2A389FD10038EEEC /* theme.swift in Sources */,
 				D07412952A39F1200038EEEC /* UserDetailResponse.swift in Sources */,
 				D07412A72A3A304F0038EEEC /* PillView.swift in Sources */,
 				D0DC2FA92A3C9FC700A21D94 /* CreateView.swift in Sources */,
+				D095C47A2A4756D60004279C /* CheckmarkPopOverView.swift in Sources */,
 				D074126C2A389DC00038EEEC /* PeopleAppApp.swift in Sources */,
 				D07412972A39F17E0038EEEC /* UsersResponse.swift in Sources */,
 				D07412A42A3A2F180038EEEC /* PersonItemView.swift in Sources */,

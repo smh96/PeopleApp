@@ -13,6 +13,7 @@ struct PeopleView: View {
     
     @StateObject private var vm = PeopleViewModel()
     @State private var showCreate = false
+    @State private var shouldShowSuccess = false
     
     var body: some View {
         NavigationView {
@@ -20,18 +21,23 @@ struct PeopleView: View {
                 
                 background
                 
-                ScrollView {
-                    LazyVGrid(columns: columns, spacing: 16) {
-                        ForEach(vm.users, id: \.id) { user in
-                            NavigationLink {
-                                DetailView(userId: user.id)
-                            } label: {
-                                PersonItemView(user: user)
+                if vm.isLoading {
+                    ProgressView()
+                } else {
+                    ScrollView {
+                        LazyVGrid(columns: columns, spacing: 16) {
+                            ForEach(vm.users, id: \.id) { user in
+                                NavigationLink {
+                                    DetailView(userId: user.id)
+                                } label: {
+                                    PersonItemView(user: user)
+                                }
                             }
                         }
+                        .padding()
                     }
-                    .padding()
                 }
+               
             }
             .navigationTitle("People")
             .toolbar {
@@ -44,7 +50,29 @@ struct PeopleView: View {
             }
             
             .sheet(isPresented: $showCreate) {
-                CreateView()
+                CreateView {
+                    withAnimation(.spring().delay(0.25)) {
+                        self.shouldShowSuccess.toggle()
+                    }
+                }
+            }
+            .alert(isPresented: $vm.hasError, error: vm.error) {
+                Button("Retry") {
+                    vm.fetchUsers()
+                }
+            }
+            .overlay {
+                if shouldShowSuccess {
+                    CheckmarkPopOverView()
+                        .transition(.scale.combined(with: .opacity))
+                        .onAppear {
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                                withAnimation(.spring()) {
+                                    self.shouldShowSuccess.toggle()
+                                }
+                            }
+                        }
+                }
             }
         }
     }
@@ -77,5 +105,6 @@ private extension PeopleView {
                     .bold()
                 )
         }
+        .disabled(vm.isLoading)
     }
 }
