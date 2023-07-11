@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D00389452A41E12F00A02A68 /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00389442A41E12F00A02A68 /* PeopleViewModel.swift */; };
 		D00389472A41E66A00A02A68 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00389462A41E66A00A02A68 /* DetailViewModel.swift */; };
+		D06442502A5C4E7A0045A38C /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064424F2A5C4E7A0045A38C /* HapticsManager.swift */; };
 		D074126C2A389DC00038EEEC /* PeopleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074126B2A389DC00038EEEC /* PeopleAppApp.swift */; };
 		D07412702A389DC00038EEEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D074126F2A389DC00038EEEC /* Assets.xcassets */; };
 		D07412732A389DC00038EEEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07412722A389DC00038EEEC /* Preview Assets.xcassets */; };
@@ -26,15 +27,19 @@
 		D07412A72A3A304F0038EEEC /* PillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07412A62A3A304F0038EEEC /* PillView.swift */; };
 		D07412A92A3B2CA10038EEEC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07412A82A3B2CA10038EEEC /* DetailView.swift */; };
 		D095C47A2A4756D60004279C /* CheckmarkPopOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D095C4792A4756D60004279C /* CheckmarkPopOverView.swift */; };
+		D095C47D2A475B730004279C /* CreateValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D095C47C2A475B730004279C /* CreateValidator.swift */; };
+		D098DEDF2A5D64D800B7F1C3 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D098DEDE2A5D64D800B7F1C3 /* Endpoint.swift */; };
 		D0D47E902A45EE4B004A18B6 /* NewPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D47E8F2A45EE4B004A18B6 /* NewPerson.swift */; };
 		D0D47E922A45EF2D004A18B6 /* CreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D47E912A45EF2D004A18B6 /* CreateViewModel.swift */; };
 		D0DC2FA92A3C9FC700A21D94 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC2FA82A3C9FC700A21D94 /* CreateView.swift */; };
 		D0DC2FAD2A3DE30300A21D94 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC2FAC2A3DE30300A21D94 /* NetworkingManager.swift */; };
+		D0E12BDB2A5C5A7600C578D7 /* UserDefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E12BDA2A5C5A7600C578D7 /* UserDefaultKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D00389442A41E12F00A02A68 /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
 		D00389462A41E66A00A02A68 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		D064424F2A5C4E7A0045A38C /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 		D07412682A389DC00038EEEC /* PeopleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeopleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D074126B2A389DC00038EEEC /* PeopleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleAppApp.swift; sourceTree = "<group>"; };
 		D074126F2A389DC00038EEEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,10 +59,13 @@
 		D07412A62A3A304F0038EEEC /* PillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillView.swift; sourceTree = "<group>"; };
 		D07412A82A3B2CA10038EEEC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		D095C4792A4756D60004279C /* CheckmarkPopOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmarkPopOverView.swift; sourceTree = "<group>"; };
+		D095C47C2A475B730004279C /* CreateValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateValidator.swift; sourceTree = "<group>"; };
+		D098DEDE2A5D64D800B7F1C3 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		D0D47E8F2A45EE4B004A18B6 /* NewPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPerson.swift; sourceTree = "<group>"; };
 		D0D47E912A45EF2D004A18B6 /* CreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewModel.swift; sourceTree = "<group>"; };
 		D0DC2FA82A3C9FC700A21D94 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
 		D0DC2FAC2A3DE30300A21D94 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		D0E12BDA2A5C5A7600C578D7 /* UserDefaultKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D064424E2A5C4E6F0045A38C /* Haptics */ = {
+			isa = PBXGroup;
+			children = (
+				D064424F2A5C4E7A0045A38C /* HapticsManager.swift */,
+			);
+			path = Haptics;
+			sourceTree = "<group>";
+		};
 		D074125F2A389DBF0038EEEC = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +138,8 @@
 		D074127E2A38A1650038EEEC /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				D0E12BD92A5C5A5100C578D7 /* UserDefaults */,
+				D064424E2A5C4E6F0045A38C /* Haptics */,
 				D0DC2FAA2A3DE2E800A21D94 /* API */,
 				D07412A52A3A30400038EEEC /* Views */,
 				D074129B2A39F2C60038EEEC /* Mapper */,
@@ -154,6 +172,7 @@
 		D07412812A38A1790038EEEC /* Create */ = {
 			isa = PBXGroup;
 			children = (
+				D095C47B2A475B610004279C /* Validator */,
 				D07412892A38A3010038EEEC /* View Models */,
 				D07412882A38A2FE0038EEEC /* Model */,
 				D07412872A38A2FB0038EEEC /* Views */,
@@ -294,12 +313,29 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		D095C47B2A475B610004279C /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				D095C47C2A475B730004279C /* CreateValidator.swift */,
+			);
+			path = Validator;
+			sourceTree = "<group>";
+		};
 		D0DC2FAA2A3DE2E800A21D94 /* API */ = {
 			isa = PBXGroup;
 			children = (
 				D0DC2FAC2A3DE30300A21D94 /* NetworkingManager.swift */,
+				D098DEDE2A5D64D800B7F1C3 /* Endpoint.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		D0E12BD92A5C5A5100C578D7 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				D0E12BDA2A5C5A7600C578D7 /* UserDefaultKeys.swift */,
+			);
+			path = UserDefaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,18 +412,22 @@
 			files = (
 				D074129D2A39F2D30038EEEC /* StaticJSONMapper.swift in Sources */,
 				D07412A92A3B2CA10038EEEC /* DetailView.swift in Sources */,
+				D095C47D2A475B730004279C /* CreateValidator.swift in Sources */,
 				D074127B2A389E310038EEEC /* Symbols.swift in Sources */,
 				D07412A02A39F8140038EEEC /* PeopleView.swift in Sources */,
 				D07412A22A39F8720038EEEC /* SettingsView.swift in Sources */,
 				D0D47E902A45EE4B004A18B6 /* NewPerson.swift in Sources */,
 				D0D47E922A45EF2D004A18B6 /* CreateViewModel.swift in Sources */,
 				D074127D2A389FD10038EEEC /* theme.swift in Sources */,
+				D06442502A5C4E7A0045A38C /* HapticsManager.swift in Sources */,
 				D07412952A39F1200038EEEC /* UserDetailResponse.swift in Sources */,
 				D07412A72A3A304F0038EEEC /* PillView.swift in Sources */,
 				D0DC2FA92A3C9FC700A21D94 /* CreateView.swift in Sources */,
 				D095C47A2A4756D60004279C /* CheckmarkPopOverView.swift in Sources */,
 				D074126C2A389DC00038EEEC /* PeopleAppApp.swift in Sources */,
 				D07412972A39F17E0038EEEC /* UsersResponse.swift in Sources */,
+				D0E12BDB2A5C5A7600C578D7 /* UserDefaultKeys.swift in Sources */,
+				D098DEDF2A5D64D800B7F1C3 /* Endpoint.swift in Sources */,
 				D07412A42A3A2F180038EEEC /* PersonItemView.swift in Sources */,
 				D074129A2A39F28F0038EEEC /* Models.swift in Sources */,
 				D00389452A41E12F00A02A68 /* PeopleViewModel.swift in Sources */,
